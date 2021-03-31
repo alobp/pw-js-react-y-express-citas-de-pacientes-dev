@@ -1,0 +1,1 @@
+el archivo de las rutas debe de llamarse asi, index.js

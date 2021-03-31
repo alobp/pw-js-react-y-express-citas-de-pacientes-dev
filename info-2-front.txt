@@ -1,0 +1,38 @@
+0) levantar el servicio de mongoDB
+00) levantar el servidor del backend
+
+1) crear el front con: https://github.com/facebook/create-react-app
+npx create-react-app [nombre carpeta my-app]
+cd [nombre carpeta my-app]
+npm start
+
+2) Preparar los archivos para la pagina principal en :
+- public/
+- public/css/mi_css.css
+- public/index.html
+- src/App.js
+- src/index.js
+
+3) instalar Router
+npm install react-router-dom
+
+3.1) crear los archivos de las vistas (comnponentes)
+- configurar en: App.js las distintas rutas
+- crear /comnponents/ y cada uno de los componentes (vistas) para cada ruta
+
+4) instalar Axios, nos va a permitir tener una conexion base que apunta a un dominio en especifico y asi todas las peticiones a la api quedaran generalizadas
+npm install axios
+
+4.1) crear el archivo de configuracion en nueva carpeta:
+/src/config/axios.js
+
+4.2) creamos las variables de entorno para produccion
+.env.development
+- y la agregamos en axios.js
+
+5) podemos agregar swet alert para nuestros mensajes al usuario
+npm install sweetalert2
+
+
+6) al finalizar el proyecto y mandarlo a produccion hay que opimizarlo 
+npm run build

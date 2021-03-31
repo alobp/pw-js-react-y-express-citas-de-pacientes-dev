@@ -1,0 +1,22 @@
+1) iniciaar proyecto de Node
+npm init
+
+2) instalar dependencias, Express y Mongoose
+npm install express mongoose
+
+
+3) instalamos dependencias de desarrollo, Nodemon, se encarga de reflejar los cambios del codigo en servidor
+npm install --save-dev nodemon
+
+4) confiugurar el servidor en index.js y su script en package.json, y arrancarlo en consola
+npm run dev
+
+5) configurar mongoDB 
+-crear carpetas en C:
+-levantar el servicio de mongod.exe
+5.1) y crear sus modelos
+
+6) instalar CORS para las peticiones externeas a nuestra api
+npm install cors
+
+6.1) determine el acceso publico o privado para CORS
